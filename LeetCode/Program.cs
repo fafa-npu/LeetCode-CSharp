@@ -10,6 +10,10 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+            ListNode l1 = new ListNode(9);
+            ListNode l2 = new ListNode(8);
+            Solution sln = new Solution();
+            sln.AddTwoNumbers(l1, l2);
         }
     }
 }
