@@ -11,8 +11,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             Solution sln = new Solution();
-            sln.LongestPalindrome("cddbbdd");
-            sln.LongestPalindrome("cbbd");
+            sln.Convert("PAYPALISHIRING", 4);
         }
     }
 }

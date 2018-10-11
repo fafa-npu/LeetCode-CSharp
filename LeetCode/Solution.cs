@@ -162,5 +162,40 @@ namespace LeetCode
 
             return result;
         }
+
+        public string Convert(string s, int numRows)
+        {
+            string result = string.Empty;
+
+            if (numRows == 1)
+            {
+                return s;
+            }
+
+            int[] pos = new int[s.Length];
+
+            int point = 0;
+            int distance = (numRows - 1) * 2;
+
+            for (int row = 0; row < numRows; row++)
+            {
+                for (int step = row; step < s.Length; step += distance)
+                {
+                    pos[point++] = step;
+
+                    if (row != 0 && row != numRows - 1 && step + distance - row * 2 < s.Length)
+                    {
+                        pos[point++] = step + distance - row * 2;
+                    }
+                }
+            }
+
+            foreach(var index in pos)
+            {
+                result += s[index];
+            }
+
+            return result;
+        }
     }
 }
