@@ -11,7 +11,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             Solution sln = new Solution();
-            sln.Convert("PAYPALISHIRING", 4);
+            sln.Reverse(-123);
         }
     }
 }
