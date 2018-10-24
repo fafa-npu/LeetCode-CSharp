@@ -11,10 +11,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             Solution sln = new Solution();
-                sln.MyAtoi("-6147483648");
-            sln.MyAtoi("42");
-            sln.MyAtoi("2147483648");
-            sln.MyAtoi(" -91283472332");
+            sln.IsPalindrome(1001);
         }
     }
 }
