@@ -11,7 +11,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             Solution sln = new Solution();
-            sln.IsPalindrome(1001);
+            sln.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 });
         }
     }
 }
