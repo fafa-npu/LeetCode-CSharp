@@ -11,7 +11,8 @@ namespace LeetCode
         static void Main(string[] args)
         {
             Solution sln = new Solution();
-            sln.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 });
+            string[] strs = {"dog","racecar","car"};
+            Console.WriteLine(sln.LongestCommonPrefix(strs));
         }
     }
 }
