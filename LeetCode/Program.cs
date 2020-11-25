@@ -12,7 +12,10 @@ namespace LeetCode
         {
             Solution sln = new Solution();
             string[] strs = {"dog","racecar","car"};
-            Console.WriteLine(sln.LongestCommonPrefix(strs));
+            int[] nums = { -1,0,1,2,-1,-4    };
+
+            var results = sln.ThreeSum(nums);
+            Console.WriteLine("hello world");
         }
     }
 }
