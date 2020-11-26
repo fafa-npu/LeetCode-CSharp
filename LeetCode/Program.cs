@@ -12,9 +12,10 @@ namespace LeetCode
         {
             Solution sln = new Solution();
             string[] strs = {"dog","racecar","car"};
-            int[] nums = { -1,0,1,2,-1,-4    };
+            int[] nums = { -1, 2, 1, -4 };
 
-            var results = sln.ThreeSum(nums);
+
+            var result = sln.ThreeSumClosest(nums, 1);
             Console.WriteLine("hello world");
         }
     }
