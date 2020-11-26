@@ -15,7 +15,8 @@ namespace LeetCode
             int[] nums = { -1, 2, 1, -4 };
 
 
-            var result = sln.ThreeSumClosest(nums, 1);
+            //var result = sln.ThreeSumClosest(nums, 1);
+            var results = sln.LetterCombinations("23");
             Console.WriteLine("hello world");
         }
     }
